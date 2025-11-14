@@ -1,5 +1,5 @@
-const [, , arg] = process.argv;      // ES6 destructuring
-const num = Number(arg);             // Convert argument to number
+const [, , arg] = process.argv;      
+const num = Number(arg);             
 
 // ES6 arrow function (recursive)
 const factorial = n => 
